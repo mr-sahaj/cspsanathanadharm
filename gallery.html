@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Indian Cultures</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        section {
+            padding: 30px;
+            background-color: #fff;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2, h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .gallery-item {
+            margin: 10px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            width: 300px; /* Set a fixed width */
+            height: 200px; /* Set a fixed height */
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.1);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .description-box {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border-radius: 0 0 8px 8px;
+            display: none;
+        }
+
+        .gallery-item:hover .description-box {
+            display: block;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Responsive Styles */
+        @media only screen and (max-width: 600px) {
+            section {
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to the Rich Tapestry of Indian Cultures</h1>
+</header>
+
+<section id="gallery">
+    <h2>Photo Gallery</h2>
+    <div class="gallery">
+        <div class="gallery-column">
+            <h3>Workspace</h3>
+            <div class="gallery-item">
+                <img src="WhatsApp Image 2023-11-08 at 22.29.43_48bec21a.jpg" alt="Workspace Image 1">
+                <div class="my mokplace include most of the temples in nellore">
+                    <p>Description for Workspace Image 1</p>
+                </div>
+            </div>
+            
+            <!-- Add more workspace gallery items as needed -->
+        </div>
+        <break>
+
+        <div class="gallery-column">
+            <h3>Portfolio</h3>
+            <div class="gallery-item">
+                <img src="WhatsApp Image 2023-11-02 at 21.21.26_5fa04663.jpg" alt="Portfolio Image 1">
+                <div class="description-box">
+                    <p>Description for Portfolio Image 1</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="WhatsApp Image 2023-11-02 at 21.21.27_4ac6eab0.jpg"description-box">
+                    <p>Description for Portfolio Image 2</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="WhatsApp Image 2023-11-02 at 21.21.40_d7799037.jpg" alt="Portfolio Image 2">
+                <div class="description-box">
+                    <p>Description for Portfolio Image 2</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="WhatsApp Image 2023-11-02 at 21.21.44_0abac5b2.jpg" alt="Portfolio Image 2">
+                <div class="description-box">
+                    <p>Description for Portfolio Image 2</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="WhatsApp Image 2023-11-02 at 21.21.46_73e58117.jpg" alt="Portfolio Image 2">
+                <div class="description-box">
+                    <p>Description for Portfolio Image 2</p>
+                </div>
+            </div>
+            <!-- Add more portfolio gallery items as needed -->
+        </div>
+    </div>
+</section>
+</break>
+
+</body>
+</html>
